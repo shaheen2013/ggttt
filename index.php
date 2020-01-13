@@ -3,7 +3,7 @@
 require_once('Git.php');
 
 $branch = 'branch_'.uniqid();
-$branch = 'master';
+//$branch = 'master';
 
 $repo = Git::open('D:\xampp\htdocs\gitTest');
 $repo->add('.');
