@@ -2,7 +2,7 @@
 
 require_once('Git.php');
 
-$branch = date('d M, Y H:i:s');
+$branch = date('branch_'.time());
 
 $repo = Git::open('D:\xampp\htdocs\gitTest');
 $repo->add('.');
